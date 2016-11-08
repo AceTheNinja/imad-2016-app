@@ -1,0 +1,14 @@
+body {
+  background-color: #0f0f0f;
+  transition: background-color 1000ms linear; }
+  body .loader svg {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  body .loader h1, body .loader h4 {
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
