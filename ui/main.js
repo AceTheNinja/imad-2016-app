@@ -27,3 +27,5 @@ $(".loader")
             display:"none"
         }
     );
+
+$("#sideNav")
