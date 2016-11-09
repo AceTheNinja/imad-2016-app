@@ -9,29 +9,29 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/main.css', function (req, res) {
+app.get('css/main.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/css', 'main.css'));
 });
 
-app.get('/main.js', function (req, res) {
+app.get('js/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/js', 'main.js'));
 });
-app.get('/animate.css', function (req, res) {
+app.get('css/animate.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/css', 'animate.css'));
 });
-app.get('/bootstrap.css', function (req, res) {
+app.get('css/bootstrap.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/css', 'bootstrap.css'));
 });
-app.get('/modernizr-2.8.3-respond-1.4.2.min.js', function (req, res) {
+app.get('js/modernizr-2.8.3-respond-1.4.2.min.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/js', 'modernizr-2.8.3-respond-1.4.2.min.js'));
 });
-app.get('/bootstrap.min.js', function (req, res) {
+app.get('js/bootstrap.min.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/js', 'bootstrap.min.js'));
 });
-app.get('/jquery-1.11.2.min.js', function (req, res) {
+app.get('js/jquery-1.11.2.min.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/js', 'jquery-1.11.2.min.js'));
 });
-app.get('/typed.js', function (req, res) {
+app.get('js/typed.js', function (req, res) {
     res.sendFile(path.join(__dirname, 'ui/js', 'typed.js'));
 });
 
